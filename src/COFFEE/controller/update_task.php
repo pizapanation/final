@@ -35,10 +35,10 @@
     $dbf->beginTransaction();
     $dbf->execute_query($sql,[$item_title,$item_detail,$item_start_date,$item_end_date,$item_id,$user_id]);
     $dbf->commit();
-    $session->setMessage("タスクを登録しました");
+    $session->setMessage("タスクを編集しました");
   }
   catch(Exception $e){
     $dbf->rollback();
-    $session->setErrorMessage("不具合によりタスクを登録できません");
+    $session->setErrorMessage("不具合によりタスクを編集できません");
   }
   $request->redirect(DirectorySettings::COFFEE_PUBLIC.'main.php');
