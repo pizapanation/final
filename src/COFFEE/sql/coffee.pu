@@ -1,0 +1,40 @@
+@startuml COFFEE 
+
+  entity Users{
+    user_id[PK]
+    user_name
+    user_email
+    user_password
+  }
+
+  entity Items{
+    item_id[PK]
+    user_id[FK]
+    ' category_id[FK]
+    item_title
+    item_detail
+    item_status
+    item_created_date
+    item_start_date
+    item_end_date
+  }
+
+  ' entity Category{
+  '   category_id[PK]
+  '   category_name
+  ' }
+
+  ' entity UserCategory {
+  '   userCategory_id[PK]
+  '   user_id[FK]
+  '   category_id[FK]
+  ' }
+
+  hide empty methods
+
+  ' Items}|--||UserCategory
+  Items}|-l-||Users
+  ' Users ||--|{ UserCategory
+  ' UserCategory }|--|| Category
+
+@enduml

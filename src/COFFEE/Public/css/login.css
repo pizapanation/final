@@ -1,0 +1,91 @@
+
+h1 {
+  text-align: center;
+  padding: 2% 0;
+}
+
+p {
+  margin: 0;
+}
+
+main{
+  width: 100%;
+  height: 90%;
+  margin: 0 auto;
+
+}
+
+.container {
+  width: 70%;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  height: 10%;
+  font-size: 20px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.buttons > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  border: 1px black solid;
+  border-bottom: 0;
+  border-radius: 18px 18px 0 0;
+}
+
+form{
+  height: 90%;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  border: 1px black solid;
+  border-top: 0;
+  height: 100%;
+  border-radius: 0 0 18px 18px;
+  text-align: center;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.form-box>p,.form-box>input{
+  margin: 6% auto;
+}
+
+.form-box>p{
+  font-size: 24px;
+}
+
+.form-box>input{
+  height: 24px;
+}
+
+input[type="submit"]{
+  font-size: 18px;
+  height: auto;
+}
+
+.login-box{
+  background-color:antiquewhite;
+}
+
+.register-box{
+  background-color: aqua;
+}
+
+.hidden{
+  display: none;
+}
+
