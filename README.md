@@ -12,7 +12,7 @@
  - システム名<br>
   COFFEE
  - URL<br>
-  [COFFEE](https://aso2201368.zombie.jp/COFFEE/)
+  [COFFEE](https://aso2201368.zombie.jp/COFFEE/Public/login.php)
 
 ## 使用方法
 
