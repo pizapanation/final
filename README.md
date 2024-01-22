@@ -33,7 +33,7 @@ spファーストで作成しました。
 
 ## 構造
 
-
+```
 COFFEE.
 |   bootstrap.php
 |   main.txt
